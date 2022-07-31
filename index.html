@@ -3,61 +3,150 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Matías Boiero</title>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- css estilos -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- fontawesome -->
+  <!-- <script src="https://kit.fontawesome.com/93ce687236.js" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script> -->
+  <script src="https://use.fontawesome.com/releases/v6.0.0-beta2/js/all.js"></script>
+
+  <!-- JAVASCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  <title></title>
 </head>
 
 <body>
-  <img src="Imagenes/perfil2.jpg" alt="Matìas Boiero photo" width=200 height="200">
-  <h1>Matías Boiero</h1>
-  <p><em>Estudiante de <strong>desarrollo de Software.</strong></em></p>
-  <p>Mi nombre es Matías Boiero y soy programador backend .NET.
-    Soy un apasaionado de la tecnología y trabajo con tecnogogias
-    bajo el entorno.Net desarrollando proyectos de aplicaciones
-    web, escritorio y dispositivos moviles.
+  <section id="presentacion">
+    <div class="row">
+      <div class="col-md-6 columna-1">
+        <img class="imagen-portada" src="imagenes/imagen-twitter.png" alt="">
+      </div>
 
-    Tengo experiencia trabajando con pequeñas y medianas
-    empresas actualizando siempre mis conocimientos
-    hacia nuevas tecnologías.
+      <div class="col-md-6 columna-2 ">
+        <i class="fa-brands fa-twitter pajarito"></i>
+        <div class="portada-general">
+          <div class=" portada-titulo">
+            <h1><span>Lo que está <br> pasando ahora</span></h1>
+          </div>
+          <div class="portada-subtitulo">
+            <h3><span>Únete a twitter hoy mismo.</span></h3>
+          </div>
+        </div>
+        <div class="portada-botones">
+          <div class="d-grid col-md-4 ">
+            <button type="button" class="btn btn-sm boton-google botones-1"><i class="fa-brands fa-google logo-google"></i> Registrarse con Google</button>
+          </div>
 
-    Si deseas un desarrollador comprometido con su trabajo
-    y con gran capacidad de aprendizaje y compañerismo
-    no dudes en contactarte conmigo.</p>
-  <hr>
-  <h3>Educación</h3>
-  <ul>
-    <li><a href="https://sceu.frba.utn.edu.ar/e-learning/detalle/curso/338/fundamentos-de-la-programacion?id=999188122" target="blank">UTN- Introducción a la programación</a></li>
-    <li><a href="https://www.educacionit.com/carrera-net" target="blank">Educacion it- Introducción a C# y .NET CORE </a></li>
-    <li><a href="https://www.ispc.edu.ar/tecnicatura-web" target="blank">ISPC- Desarrollo Web y Aplicaiones Digitales</a></li>
-  </ul>
-  <hr>
-  <h3>Experiencia laboral</h3>
-  <table border="1px"
-    <thead>
-      <tr>
-        <th>Fecha</th>
-        <th>Actividad</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2014-2022</td>
-        <td>Profesor de música y composición</td>
-      </tr>
-      <tr>
-        <td>2016</td>
-        <td>Becario en Untref</td>
-      </tr>
-      <tr>
-        <td>2019-2022</td>
-        <td>Freelance web developer</td>
-      </tr>
-    </tbody>
+          <div class="portada-botones">
+            <div class="d-grid col-md-4">
+              <button type="button" class="btn btn-sm boton-apple botones-1"><i class="fa-brands fa-apple logo-apple"></i> Registrarse con Apple</button>
+            </div>
+          </div>
 
-  </table>
-  <hr>
-  <a href="Hobbies.html">Mis Hobbies</a>
-  <br />
-  <a href="Contactarme.html">Contactarme</a>
+          <div class="d-grid col-md-4">
+            <div class="letra-o">o</div>
+          </div>
+          <div class="d-grid col-md-4">
+            <button type="button" class="btn btn-primary btn-sm botones-1" id="btn-cuenta">Crear cuenta</button>
+          </div>
+          <div class="d-grid col-md-4 parrafo-condiciones">
+            <p>Al registrarte, aceptas los <a href="https://www.google.com">términos de servicio</a> y <a href="#">la Política de privacidad</a>, incluida la política de <a href="#">Uso de Cookies</a> .</p>
+          </div>
+
+          <div class=" ">
+            <div class="cuenta-h5">
+              <h5>¿Ya tienes una cuenta?</h5>
+            </div>
+
+            <div class="">
+              <div class="d-grid col-md-4">
+                <button type="button" class="btn btn-sm btn-outline-dark boton-inicio">Inicio de sesión</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="navbar-final">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdow">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active enlaces-listas" href="#">Centro de ayuda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">Condiciones de servicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">Politica de privacidad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">Politica de Cookies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">Accesibilidad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas " href="#">Informacion de anuncios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  enlaces-listas" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">Estado</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">Empleos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">Recursos para marcas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">Publicidad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">Marketing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">Twitter para empresas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">Desarrolladores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">Guia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">Configuración</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link enlaces-listas" href="#">© 2022 Twiiter, Inc</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+
 </body>
 
 </html>

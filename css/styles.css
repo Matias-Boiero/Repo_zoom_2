@@ -1,0 +1,154 @@
+#presentacion {}
+
+.columna-1 {}
+
+.imagen-portada {
+  width: 100%;
+  height: 100%;
+}
+
+.portada-titulo {
+  margin: 5% 5%;
+  margin-left: 1%;
+}
+
+.portada-titulo h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.portada-subtitulo h3 {
+  font-weight: bold;
+  font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 25px;
+}
+
+.portada-subtitulo {
+  margin-left: 1%;
+}
+
+.pajarito {
+  font-size: 35px;
+  color: rgb(29, 155, 240);
+  padding: 5px 0 0 10px;
+}
+
+.columna-2 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.botones-1 {
+  padding: 1% 5%;
+  border-radius: 42px;
+  margin-left: 1%;
+  margin-top: 10px;
+  margin-bottom: 1.5%;
+  margin-right: 1%;
+  border-color: #DFDFDE;
+  font-size: 0.8rem;
+  color: black;
+  font-family: "Google Sans", arial, sans-serif;
+}
+
+.boton-google:hover {
+  background-color: #FEFBF6;
+  color: black;
+  border-color: ##DFDFDE;
+}
+
+.boton-apple {
+  font-weight: bold;
+}
+
+.logo-google {
+  color: #0096FF;
+  margin-right: 5px;
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.logo-apple {
+  color: #0096FF;
+  margin-right: 5px;
+  font-size: 20px;
+  margin-top: 2px;
+}
+
+.boton-apple:hover {
+  background-color: #F0F0F0;
+  color: #0096FF;
+}
+
+.letra-o {
+  text-align: center;
+  font-size: 12px;
+}
+
+#btn-cuenta {
+  color: #fff;
+  padding: 3% 0 3%;
+  font-weight: bold;
+  background-color: #0096FF;
+}
+
+.enlaces-listas:hover {
+  text-decoration: underline;
+}
+
+#navbarNavDropdow a {
+  margin: auto;
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+#navbarNavDropdo li {
+  margin: auto;
+  padding: auto;
+}
+
+#navbarNavDropdow ul {
+  margin: auto;
+  padding: auto;
+}
+
+.parrafo-condiciones p {
+  font-size: 0.6rem;
+  color: #2C3333;
+  padding-left: 1%;
+}
+
+.parrafo-condiciones {
+  padding-bottom: 2%;
+}
+
+.cuenta-h5 h5 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 1%;
+}
+
+.cuenta-h5 {
+  margin-top: 10px;
+}
+
+.boton-sesion {
+  width: 20%;
+  font-size: 25%;
+  ;
+}
+
+.boton-inicio {
+  color: #0096FF;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 42px;
+  font-weight: bold;
+  border-color: #DFDFDE;
+}
+
+.boton-inicio:hover {
+  background-color: #F6F5F5;
+  color: #0096FF;
+}
